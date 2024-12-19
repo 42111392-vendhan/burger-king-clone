@@ -1,0 +1,193 @@
+*{
+    text-decoration: none;
+} 
+.navbar{
+    background-color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: calibri;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: brown;
+}
+.topright{
+    margin: 15px;
+}
+.div1 li {
+    list-style: none;
+    display: inline-block;
+    font-family: calibri;
+    font-weight: 700px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    margin-right: 25px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+input{
+    padding: 6px;
+    border-radius: 10px;
+}
+.menu{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div2 li {
+    list-style: none;
+    display: inline-block;
+    font-family: calibri;
+}
+.div2 li a{
+    color: brown;
+    font-size: 18px;font-weight: 700;
+    font-family: calibri;
+}
+.menu_2{
+    margin-left: 1225px;
+}
+.grid-container{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: 125px 125px 125px 125px 125px 125px 125px 125px 125px 125px ;
+    background-color: antiquewhite;
+}
+.box1{
+    display: flex;
+    border: 1px solid rgb(80, 25, 25);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+.content{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+@media only screen and (max-width:600px) {
+    body{
+        background-color: antiquewhite;
+    }
+}
+#item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10{
+    text-align: center;
+    font-size: 18px;
+    font-family: calibri;
+    color: brown;
+}
+button{
+    background-color: brown;
+    color: white;
+    font-family: calibri;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px;
+    width: 33%;
+    border-radius: 20px;
+    border: 1px solid brown;
+}
+.btn{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wallcont{
+    background-color: aliceblue;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+img{
+    width: 80%;
+    border-radius: 10px;
+}
+center{
+    font-size: 18px;
+    font-family: calibri;
+}
+
+.footer{
+    text-decoration: none;
+    background-color:  rgb(161, 150, 150);
+    width: 1380px;
+    height: 350px;
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    border: 2px solid  rgb(161, 150, 150);
+}
+ .logo1 a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: calibri;
+    color: brown;
+    margin-left: 15px;
+    border: 2px solid  rgb(161, 150, 150);
+    width: 100%;
+}
+.foot1{
+    background-color: rgb(161, 150, 150);
+    padding: 60px;
+    border: 2px solid  rgb(161, 150, 150);
+    width: 100%;
+}
+.div_12 ul a{
+    background-color: brown;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.div_12{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.la{
+    height: 600px;
+    background-color:  rgb(161, 150, 150);
+}
+.footer1{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(161, 150, 150);
+    color: black;
+    text-align: center;
+    font-family: calibri;
+}
+#top1:hover {
+    background-color: brown;
+    color: white;
+    cursor:pointer;
+}
+#top2:hover {
+    background-color: brown;
+    color: white;
+    cursor:pointer;
+}
+body{
+    background-color: aliceblue;
+}
+.box1:hover{
+    width: 110px;
+    height: 85px;
+    box-shadow: 10px 10px 15px rgba(239, 79, 79, 0.5);
+}
